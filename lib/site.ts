@@ -9,6 +9,7 @@ export const ROUTES = {
   about: "/about",
   nadi: "/nadi-nakshatra-astrology",
   psychology: "/psychology",
+  matrimonial: "/matrimonial",
   contact: "/contact",
   privacy: "/privacy-policy",
   terms: "/terms-of-service",
@@ -45,6 +46,7 @@ export const NAV_LINKS = [
     external: true,
   },
   { href: ROUTES.psychology, label: "Psychology" },
+  { href: ROUTES.matrimonial, label: "Matrimonial" },
   { href: ROUTES.contact, label: "Contact" },
 ];
 

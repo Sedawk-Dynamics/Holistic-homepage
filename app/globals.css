@@ -184,16 +184,16 @@ a {
 }
 
 /* Laptops: tighten spacing before the menu collapses. */
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   #hdr .nav {
     gap: 16px;
   }
   #hdr nav.links a {
-    padding: 8px 10px;
+    padding: 8px 8px;
   }
   #hdr nav.links a::after {
-    left: 10px;
-    right: 10px;
+    left: 8px;
+    right: 8px;
   }
   #hdr .brand img {
     height: 50px;
@@ -202,7 +202,7 @@ a {
 
 /* Tablets and phones: links move into the menu. Login to LMS and
    Book a Session stay visible in the bar; Shop moves into the menu. */
-@media (max-width: 1180px) {
+@media (max-width: 1240px) {
   #hdr nav.links {
     display: none;
   }
