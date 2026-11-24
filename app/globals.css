@@ -142,6 +142,11 @@ a {
    page class (.p-home, .p-about, ...). These #hdr rules sit on top of all of
    them (an id outranks the page class) so the header lines up the same way
    everywhere and on every screen size. */
+/* The header row gets a little more width than page content so the seven
+   links, logo and buttons fit on wide laptops (e.g. 1440-1728px MacBooks). */
+#hdr .wrap.nav {
+  max-width: 1340px;
+}
 #hdr .nav {
   gap: 24px;
 }
@@ -159,11 +164,11 @@ a {
 }
 #hdr nav.links a {
   white-space: nowrap;
-  padding: 8px 12px;
+  padding: 8px 10px;
 }
 #hdr nav.links a::after {
-  left: 12px;
-  right: 12px;
+  left: 10px;
+  right: 10px;
 }
 /* The CTA group always sits in the right-hand column, even when the nav
    between it and the logo is hidden on smaller screens. */
